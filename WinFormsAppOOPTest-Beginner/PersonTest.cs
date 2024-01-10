@@ -12,6 +12,9 @@ namespace WinFormsAppOOPTest_Beginner
         [TestMethod]
         public void getNameTest()
         {
+
+            Assert.IsNotNull(person.getName());
+
         }
 
     }
