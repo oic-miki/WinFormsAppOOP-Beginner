@@ -22,6 +22,7 @@ namespace WinFormsAppOOPTest_Beginner
         {
 
             Assert.IsNotNull(person.setName("Name"));
+            Assert.Equals("Name", person.getName());
 
         }
 
