@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsAppOOP", "WinFormsAppOOP\WinFormsAppOOP.csproj", "{662BD81C-F7CD-4EC6-AAF4-FDA8F6DFE83F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsAppOOPTest-Beginner", "WinFormsAppOOPTest-Beginner\WinFormsAppOOPTest-Beginner.csproj", "{56082500-9BB4-4714-94BF-1E7433CCD6CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{662BD81C-F7CD-4EC6-AAF4-FDA8F6DFE83F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{662BD81C-F7CD-4EC6-AAF4-FDA8F6DFE83F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{662BD81C-F7CD-4EC6-AAF4-FDA8F6DFE83F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56082500-9BB4-4714-94BF-1E7433CCD6CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56082500-9BB4-4714-94BF-1E7433CCD6CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56082500-9BB4-4714-94BF-1E7433CCD6CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56082500-9BB4-4714-94BF-1E7433CCD6CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
