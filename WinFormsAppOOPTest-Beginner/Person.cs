@@ -11,7 +11,9 @@ namespace WinFormsAppOOPTest_Beginner
 
         public String getName()
         {
-            throw new NotImplementedException();
+
+            return "";
+
         }
 
     }
