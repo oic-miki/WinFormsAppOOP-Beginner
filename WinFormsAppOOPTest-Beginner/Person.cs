@@ -16,6 +16,11 @@ namespace WinFormsAppOOPTest_Beginner
 
         }
 
+        public String setName(String name)
+        {
+            throw new NotImplementedException();
+        }
+
     }
 
 }
