@@ -17,6 +17,14 @@ namespace WinFormsAppOOPTest_Beginner
 
         }
 
+        [TestMethod]
+        public void setNameTest()
+        {
+
+            Assert.IsNotNull(person.setName("Name"));
+
+        }
+
     }
 
 }
