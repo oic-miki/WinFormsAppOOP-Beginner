@@ -5,6 +5,8 @@ namespace WinFormsAppOOPTest_Beginner
     public class Person
     {
 
+        private String name;
+
         public Person()
         {
         }
@@ -18,7 +20,11 @@ namespace WinFormsAppOOPTest_Beginner
 
         public String setName(String name)
         {
-            throw new NotImplementedException();
+
+            this.name = name;
+
+            return "";
+
         }
 
     }
