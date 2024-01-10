@@ -9,12 +9,15 @@ namespace WinFormsAppOOPTest_Beginner
 
         public Person()
         {
+
+            this.name = "";
+
         }
 
         public String getName()
         {
 
-            return "";
+            return this.name;
 
         }
 
@@ -23,7 +26,7 @@ namespace WinFormsAppOOPTest_Beginner
 
             this.name = name;
 
-            return "";
+            return name;
 
         }
 
