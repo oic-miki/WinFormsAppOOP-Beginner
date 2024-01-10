@@ -1,10 +1,10 @@
 namespace WinFormsAppOOPTest_Beginner
 {
     [TestClass]
-    public class UnitTest1
+    public class PersonTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void getNameTest()
         {
         }
     }
