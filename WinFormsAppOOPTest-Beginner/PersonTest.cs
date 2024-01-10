@@ -1,13 +1,13 @@
 using System;
 
-namespace WinFormsAppOOPTest_Beginner
+namespace WinFormsAppOOP
 {
 
     [TestClass]
     public class PersonTest
     {
 
-        private Person person = new Person();
+        private Person person = new PersonModel();
 
         [TestMethod]
         public void getNameTest()
@@ -21,7 +21,7 @@ namespace WinFormsAppOOPTest_Beginner
         public void setNameTest()
         {
 
-            Assert.IsNotNull(person.setName("Name"));
+            Assert.IsTrue(person.setName("Name") is Person);
             Assert.AreEqual("Name", person.getName());
 
         }
