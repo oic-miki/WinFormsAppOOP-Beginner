@@ -32,8 +32,6 @@ namespace WinFormsAppOOP
 
             this.person = person.addObserver(this);
 
-            update();
-
             return this;
 
         }
@@ -42,6 +40,8 @@ namespace WinFormsAppOOP
         {
 
             Text = person.getName();
+
+            notify();
 
         }
 

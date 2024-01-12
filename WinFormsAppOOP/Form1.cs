@@ -13,7 +13,7 @@ namespace WinFormsAppOOP
 
             person = new PersonModel("PersonModel");
 
-            personName.addPerson(person);
+            personPanel.addPerson(person).addObserver(personNameLabel.addPerson(person));
 
         }
 

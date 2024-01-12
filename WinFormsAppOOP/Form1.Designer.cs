@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            personPanel = new Panel();
-            personName = new PersonNameLabel();
-            personNameLabel = new Label();
-            label1 = new Label();
+            personPanel = new PersonPanel();
+            personNameLabel = new PersonNameLabel();
+            personNameTitleLabel1 = new PersonNameTitleLabel();
+            personNameTitleLabel2 = new PersonNameTitleLabel();
             textBox1 = new TextBox();
             button1 = new Button();
             personPanel.SuspendLayout();
@@ -39,39 +39,39 @@
             // 
             // personPanel
             // 
-            personPanel.Controls.Add(personName);
             personPanel.Controls.Add(personNameLabel);
+            personPanel.Controls.Add(personNameTitleLabel1);
             personPanel.Location = new Point(67, 41);
             personPanel.Name = "personPanel";
             personPanel.Size = new Size(422, 302);
             personPanel.TabIndex = 0;
             // 
-            // personName
-            // 
-            personName.AutoSize = true;
-            personName.Location = new Point(106, 34);
-            personName.Name = "personName";
-            personName.Size = new Size(77, 15);
-            personName.TabIndex = 1;
-            personName.Text = "Person Name";
-            // 
             // personNameLabel
             // 
             personNameLabel.AutoSize = true;
-            personNameLabel.Location = new Point(43, 34);
+            personNameLabel.Location = new Point(106, 34);
             personNameLabel.Name = "personNameLabel";
-            personNameLabel.Size = new Size(38, 15);
-            personNameLabel.TabIndex = 0;
-            personNameLabel.Text = "Name";
+            personNameLabel.Size = new Size(128, 15);
+            personNameLabel.TabIndex = 1;
+            personNameLabel.Text = "ここに名前が表示されます";
             // 
-            // label1
+            // personNameTitleLabel1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(520, 75);
-            label1.Name = "label1";
-            label1.Size = new Size(38, 15);
-            label1.TabIndex = 1;
-            label1.Text = "Name";
+            personNameTitleLabel1.AutoSize = true;
+            personNameTitleLabel1.Location = new Point(43, 34);
+            personNameTitleLabel1.Name = "personNameTitleLabel1";
+            personNameTitleLabel1.Size = new Size(43, 15);
+            personNameTitleLabel1.TabIndex = 0;
+            personNameTitleLabel1.Text = "名　前";
+            // 
+            // personNameTitleLabel2
+            // 
+            personNameTitleLabel2.AutoSize = true;
+            personNameTitleLabel2.Location = new Point(520, 75);
+            personNameTitleLabel2.Name = "personNameTitleLabel2";
+            personNameTitleLabel2.Size = new Size(43, 15);
+            personNameTitleLabel2.TabIndex = 1;
+            personNameTitleLabel2.Text = "名　前";
             // 
             // textBox1
             // 
@@ -86,7 +86,7 @@
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 3;
-            button1.Text = "Save";
+            button1.Text = "変　更";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
@@ -97,7 +97,7 @@
             ClientSize = new Size(800, 450);
             Controls.Add(button1);
             Controls.Add(textBox1);
-            Controls.Add(label1);
+            Controls.Add(personNameTitleLabel2);
             Controls.Add(personPanel);
             Name = "PersonForm";
             Text = "Person";
@@ -109,11 +109,11 @@
 
         #endregion
 
-        private Panel personPanel;
-        private Label personNameLabel;
-        private Label label1;
-        private PersonNameLabel personName;
+        private PersonPanel personPanel;
+        private PersonNameLabel personNameLabel;
         private TextBox textBox1;
         private Button button1;
+        private PersonNameTitleLabel personNameTitleLabel1;
+        private PersonNameTitleLabel personNameTitleLabel2;
     }
 }

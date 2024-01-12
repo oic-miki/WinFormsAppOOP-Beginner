@@ -79,7 +79,7 @@ namespace WinFormsAppOOP
     public class NullPerson : Person
     {
 
-        private static Person nullPerson = new NullPerson();
+        private static Person instance = new NullPerson();
 
         private NullPerson()
         {
@@ -89,7 +89,7 @@ namespace WinFormsAppOOP
         public static Person getInstance()
         {
 
-            return nullPerson;
+            return instance;
 
         }
 
